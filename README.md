@@ -1,6 +1,14 @@
-# Capstone_Thesis
-📦 Python Packages to Install
+# 🎓 Capstone Thesis Project
 
+A Django-based system with REST API, role-based access, and payment integration.
+
+---
+
+## 📦 Python Packages to Install
+
+Create a `requirements.txt` file and add the following:
+
+```txt
 # Core Django
 Django==4.2.7
 
@@ -31,19 +39,3 @@ reportlab==4.0.4
 
 # For Excel export (optional)
 openpyxl==3.1.2
-
-Step 2: Create Virtual Environment
-
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-Step 3: Install Packages
-pip install -r requirements.txt
-
-Role	Username	Email	Password
-Super Admin	admin	admin@bwest.edu.ph	admin123
-Student	student2024	student2024@bwest.edu.ph	student123
-Faculty	faculty	faculty@bwest.edu.ph	faculty123
-Finance	finance	finance@bwest.edu.ph	finance123
-Registrar	registrar	registrar@bwest.edu.ph	registrar123
